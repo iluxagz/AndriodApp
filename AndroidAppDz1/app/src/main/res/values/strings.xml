@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidApp</string>
+    <string name="Click1" >What is this app </string>
+    <string name="Click2">Flags</string>
+    <string name="Click3">Button 3</string>
+    <string name="this_is_my_first_app">This is my first App :)</string>
+</resources>
