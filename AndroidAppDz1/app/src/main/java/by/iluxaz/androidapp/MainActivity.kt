@@ -19,30 +19,4 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-
-    override fun onStart() {
-        super.onStart()
-        Log.e("Yo", "onStart")
-    }
-
-    override fun onResume() {
-        super.onResume()
-        Log.e("Yo", "onResume")
-    }
-
-    override fun onPause() {
-        super.onPause()
-        Log.e("Yo", "onPause")
-    }
-
-    override fun onStop() {
-        super.onStop()
-        Log.e("Yo", "onStop")
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        Log.e("Yo", "onDestroy")
-    }
-
 }
