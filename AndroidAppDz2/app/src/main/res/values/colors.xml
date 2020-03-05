@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="screenBackground">#BBBBBB</color>
+    <color name="click1Text">#5CE77B7B</color>
+    <color name="RedArmenia">#D80000</color>
+    <color name="BlueArmenia">#001D9C</color>
+    <color name="DarkYellowArmenia">#C99400</color>
+    <color name="BrightRedAustralia">#FD3333</color>
+    <color name="BrightRedAustralia2">#FD3333</color>
+    <color name="WhiteAustralia">#FFFFFF</color>
+    <color name="RedSpain">#FF0000</color>
+    <color name="YellowSpain">#FFE100</color>
+    <color name="VinousLatvia">#751924</color>
+    <color name="WhiteLatvia">#FFFFFF</color>
+    <color name="BlackBelgium">#000000</color>
+    <color name="YellowBelgium">#F5D600</color>
+    <color name="BrightRedBelgium">#FD3333</color>
+    <color name="RedDenmark">#AF1B30</color>
+    <color name="WhiteVerticalDenmark">#FFFFFF</color>
+    <color name="WhiteHorizontalDenmark">#FFFFFF</color>
+</resources>

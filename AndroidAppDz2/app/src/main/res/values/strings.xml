@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AndroidApp</string>
+    <string name="Button1">What is this app </string>
+    <string name="Button2">Flags</string>
+    <string name="Button3">Animation</string>
+    <string name="Introducing">This is my first App :)</string>
+    <string name="Armenia">Armenia</string>
+    <string name="Australia">Australia</string>
+    <string name="Spain">Spain</string>
+    <string name="Latvia">Latvia</string>
+    <string name="Belgium">Belgium</string>
+    <string name="denmark">Denmark</string>
+</resources>

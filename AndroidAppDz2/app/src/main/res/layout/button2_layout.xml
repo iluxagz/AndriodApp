@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E9E9E9">
+
+    <FrameLayout
+        android:id="@+id/ArmeniaRed"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/RedArmenia"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/ArmeniaBlue"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:background="@color/BlueArmenia"
+        app:layout_constraintEnd_toEndOf="@+id/ArmeniaRed"
+        app:layout_constraintStart_toStartOf="@+id/ArmeniaRed"
+        app:layout_constraintTop_toBottomOf="@+id/ArmeniaRed" />
+
+    <FrameLayout
+        android:id="@+id/ArmeniaDarkYellow"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:background="@color/DarkYellowArmenia"
+        app:layout_constraintEnd_toEndOf="@+id/ArmeniaBlue"
+        app:layout_constraintStart_toStartOf="@+id/ArmeniaBlue"
+        app:layout_constraintTop_toBottomOf="@+id/ArmeniaBlue" />
+
+    <TextView
+        android:id="@+id/textArmenia"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/Armenia"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/ArmeniaDarkYellow"
+        app:layout_constraintStart_toStartOf="@+id/ArmeniaDarkYellow"
+        app:layout_constraintTop_toBottomOf="@+id/ArmeniaDarkYellow" />
+
+    <FrameLayout
+        android:id="@+id/AustraliaBrightRed"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="25dp"
+        android:background="@color/BrightRedAustralia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/AustraliaWhite"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:background="@color/WhiteAustralia"
+        app:layout_constraintEnd_toEndOf="@+id/AustraliaBrightRed"
+        app:layout_constraintStart_toStartOf="@+id/AustraliaBrightRed"
+        app:layout_constraintTop_toBottomOf="@+id/AustraliaBrightRed" />
+
+    <FrameLayout
+        android:id="@+id/AustraliaBrightRed2"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:background="@color/BrightRedAustralia2"
+        app:layout_constraintEnd_toEndOf="@+id/AustraliaWhite"
+        app:layout_constraintStart_toStartOf="@+id/AustraliaWhite"
+        app:layout_constraintTop_toBottomOf="@+id/AustraliaWhite" />
+
+    <TextView
+        android:id="@+id/textAustralia"
+        android:layout_width="84dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/Australia"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/AustraliaBrightRed2"
+        app:layout_constraintStart_toStartOf="@+id/AustraliaBrightRed2"
+        app:layout_constraintTop_toBottomOf="@+id/AustraliaBrightRed2" />
+
+    <FrameLayout
+        android:id="@+id/SpainRed"
+        android:layout_width="140dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/RedSpain"
+        app:layout_constraintEnd_toEndOf="@+id/textArmenia"
+        app:layout_constraintStart_toStartOf="@+id/textArmenia"
+        app:layout_constraintTop_toBottomOf="@+id/textArmenia" />
+
+    <FrameLayout
+        android:id="@+id/SpainYellow"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:background="@color/YellowSpain"
+        app:layout_constraintEnd_toEndOf="@+id/SpainRed"
+        app:layout_constraintStart_toStartOf="@+id/SpainRed"
+        app:layout_constraintTop_toBottomOf="@+id/SpainRed" />
+
+    <FrameLayout
+        android:id="@+id/SpainRed2"
+        android:layout_width="140dp"
+        android:layout_height="20dp"
+        android:background="@color/RedSpain"
+        app:layout_constraintEnd_toEndOf="@+id/SpainYellow"
+        app:layout_constraintStart_toStartOf="@+id/SpainYellow"
+        app:layout_constraintTop_toBottomOf="@+id/SpainYellow" />
+
+    <TextView
+        android:id="@+id/textSpain"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/Spain"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/SpainRed2"
+        app:layout_constraintStart_toStartOf="@+id/SpainRed2"
+        app:layout_constraintTop_toBottomOf="@+id/SpainRed2" />
+
+    <FrameLayout
+        android:id="@+id/LatviaVinous"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/VinousLatvia"
+        app:layout_constraintEnd_toEndOf="@+id/textAustralia"
+        app:layout_constraintStart_toStartOf="@+id/textAustralia"
+        app:layout_constraintTop_toBottomOf="@+id/textAustralia" />
+
+    <FrameLayout
+        android:id="@+id/LatviaWhite"
+        android:layout_width="140dp"
+        android:layout_height="20dp"
+        android:background="@color/WhiteLatvia"
+        app:layout_constraintEnd_toEndOf="@+id/LatviaVinous"
+        app:layout_constraintStart_toStartOf="@+id/LatviaVinous"
+        app:layout_constraintTop_toBottomOf="@+id/LatviaVinous" />
+
+    <FrameLayout
+        android:id="@+id/LatviaVinous2"
+        android:layout_width="140dp"
+        android:layout_height="35dp"
+        android:background="@color/VinousLatvia"
+        app:layout_constraintEnd_toEndOf="@+id/LatviaWhite"
+        app:layout_constraintStart_toStartOf="@+id/LatviaWhite"
+        app:layout_constraintTop_toBottomOf="@+id/LatviaWhite" />
+
+    <TextView
+        android:id="@+id/textLatvia"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/Latvia"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/LatviaVinous2"
+        app:layout_constraintStart_toStartOf="@+id/LatviaVinous2"
+        app:layout_constraintTop_toBottomOf="@+id/LatviaVinous2" />
+
+    <FrameLayout
+        android:id="@+id/BelgiumBlack"
+        android:layout_width="40dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/BlackBelgium"
+        app:layout_constraintEnd_toStartOf="@+id/BelgiumYellow"
+        app:layout_constraintTop_toBottomOf="@+id/textSpain" />
+
+    <FrameLayout
+        android:id="@+id/BelgiumYellow"
+        android:layout_width="40dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/YellowBelgium"
+        app:layout_constraintEnd_toEndOf="@+id/textSpain"
+        app:layout_constraintStart_toStartOf="@+id/textSpain"
+        app:layout_constraintTop_toBottomOf="@+id/textSpain" />
+
+    <FrameLayout
+        android:id="@+id/BelgiumBrightRed"
+        android:layout_width="40dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/BrightRedBelgium"
+        app:layout_constraintStart_toEndOf="@+id/BelgiumYellow"
+        app:layout_constraintTop_toBottomOf="@+id/textSpain" />
+
+    <TextView
+        android:id="@+id/textBelgium"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/Belgium"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/BelgiumBrightRed"
+        app:layout_constraintStart_toStartOf="@+id/BelgiumBlack"
+        app:layout_constraintTop_toBottomOf="@+id/BelgiumYellow" />
+
+    <FrameLayout
+        android:id="@+id/DenmarkRed"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/RedDenmark"
+        app:layout_constraintEnd_toEndOf="@+id/textLatvia"
+        app:layout_constraintStart_toStartOf="@+id/textLatvia"
+        app:layout_constraintTop_toBottomOf="@+id/textLatvia" >
+
+        <FrameLayout
+            android:id="@+id/DenmarkWhiteVertical"
+            android:layout_width="10dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="40dp"
+            android:background="@color/WhiteVerticalDenmark"/>
+
+        <FrameLayout
+            android:id="@+id/DenmarkWhiteHorizontal"
+            android:layout_width="120dp"
+            android:layout_height="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/WhiteHorizontalDenmark"/>
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="85dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/denmark"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/DenmarkRed"
+        app:layout_constraintStart_toStartOf="@+id/DenmarkRed"
+        app:layout_constraintTop_toBottomOf="@+id/DenmarkRed" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
